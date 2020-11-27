@@ -1,0 +1,605 @@
+
+:root {
+    --main-color: #142850;
+    --main1: #27496d;
+    --main2: #0c7b93;
+    --main3: #00a8cc;
+    --titleh1:#00a8cc;
+    --fonth1:'Audiowide', cursive;
+}
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+
+/*  ---------- NAV BAR ---------- */
+
+
+
+.navbar .navbar-brand{
+
+color: #fff;
+font-family: var(--fonth1);
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+
+    color: #fff;
+    font-family: var(--fonth1);
+}
+
+
+/*  ---------- FORMULAIRE RECHERCHE ---------- */
+
+.formulaire-recherche {
+
+    margin: 40px 0px;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+.titre-formulaire {
+
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--fonth1);
+    color: var(--titleh1);
+    text-shadow: 0 0 3px #000;
+
+}
+
+
+
+.form-space {
+
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+label .nb-voyageur {
+
+    margin-left: 65px;
+
+}
+
+button {
+
+    background: linear-gradient(0deg, rgba(12,123,147,1) 0%, rgba(20,40,80,1) 120%);
+    border-radius: 10px;
+    
+    box-shadow:1px 1px 3px #999;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+
+
+.btn-recherche {
+
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px 20px;
+    
+}
+
+
+/*  ---------- CARTE DE SERVICES ---------- */
+
+.carte-services {
+
+    
+    margin: 40px 30px;
+
+}
+
+
+.card-head img {
+
+    width: 100%;
+    border-radius: 2px;
+    
+
+}
+
+.card {
+
+    margin-bottom: 10px;
+
+}
+
+.card-body {
+
+    text-align: center;
+
+}
+
+
+.card-body a {
+
+    
+    background: linear-gradient(0deg, rgba(12,123,147,1) 0%, rgba(20,40,80,1) 120%);
+    border-radius: 10px;
+    
+    box-shadow:1px 1px 3px #999;
+    text-align: center;
+    color: #fff;
+    
+    
+
+}
+
+
+
+
+.btn-card {
+
+    padding: 5px 20px;
+
+}
+
+
+/*  ---------- LES INCONTOURNABLES ---------- */
+
+
+.titre-incon{
+
+    font-family: var(--fonth1);
+    color: var(--titleh1);
+    text-align: center;
+    text-shadow: 0 0 3px #000;
+
+}
+
+
+.incon {
+
+    margin: 40px 0;
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 10px;
+    padding: 0 0 10px 0;
+    width: 100%;
+    
+
+}
+
+.img-incon img {
+
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.incon h5 {
+
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.incon p {
+
+    padding: 0 8px;
+    text-align: center;
+    font-size: 15px;
+    
+
+}
+
+/*  ---------- RESERVATION 2 ---------- */
+
+/*  ---------- BANDEAU INFOS ---------- */
+
+.headerbis {
+
+    background-color: #27496dec;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    
+    
+}
+
+.bandeauinfo {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.bandeauinfo h2 {
+
+    font-family: var(--fonth1);
+
+}
+
+.bandeauinfo div {
+
+    margin: 10px;
+
+}
+
+.btn-bdo {
+
+    padding: 10px 50px;
+    color: #fff;
+
+}
+
+
+
+/*  ---------- LES PROPOSITIONS ---------- */
+
+.filtres {
+
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    margin-top:20px;
+
+}
+
+.ligne1 {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 1px 1px #0c7b93;
+    
+    
+    
+}
+
+.infos-trajet {
+
+    
+    display: flex;
+    text-transform: uppercase;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    
+
+}
+
+.heure {
+
+    margin: 5px 10px;
+
+}
+
+.arret {
+
+    margin: 5px 10px;
+
+}
+
+.sous-infos {
+
+    font-style: italic;
+    color: #818181;
+
+}
+
+.tarif {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 50px;
+    padding-top: 15px;
+    box-shadow: 1px -1px 1px 1px #0c7b93;
+    
+
+}
+
+.tarif p {
+
+    color: #000;
+
+}
+
+
+/*  ---------- OPTIONS ---------- */
+
+
+.options {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.options button {
+
+    padding: 10px 60px;
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+.card ul {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card ul li {
+
+    padding: 10px;
+    list-style-type: disc;
+
+
+}
+
+/*  ---------- BOUTON TARIFS ---------- */
+
+.btn-tarifs {
+
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px 60px;
+
+}
+
+.btn-tarifs button a{
+
+    padding: 15px 40px;
+    background: linear-gradient(0deg, rgba(12,123,147,1) 0%, rgba(20,40,80,1) 120%);
+    border-radius: 10px;    
+    box-shadow:1px 1px 3px #999;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+/*  ---------- LE SAVIEZ VOUS ---------- */
+.card {
+
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(221, 240, 255);
+    
+}
+
+.card button {
+
+    padding: 10px 500px;
+
+}
+
+.btn-asavoir {
+    
+    font-size: 15px;
+    
+}
+.card-header{
+
+    padding: 0;
+    margin: 10px;
+}
+
+.card-header-asavoir button {
+
+    padding: 15px 60px;
+    color: #fff;
+}
+
+
+.card-asavoir {
+
+    text-align: center;
+    padding: 5px;
+
+}
+
+/********************** FOOTER **********************/
+
+.row {
+
+    width: 100%;
+}
+
+
+.footer-bs {
+    background-color: var(--main1);
+	padding: 10px 10px 20px;
+	color: rgba(255,255,255,1.00);
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+
+@media (min-width:650px) {
+
+
+    button:hover {
+
+        background: linear-gradient(0deg, rgb(147, 12, 12) 0%, rgba(20,40,80,1) 100%);
+        transform: scale(1.01);
+        transition: 500ms;
+        
+    
+    }
+    .card-body a:hover{
+
+    
+        background: linear-gradient(0deg, rgb(147, 12, 12) 0%, rgba(20,40,80,1) 120%);
+        text-decoration: none;
+    
+    }
+    
+    .btn-tarifs a:hover {
+        background: linear-gradient(0deg, rgb(147, 12, 12) 0%, rgba(20,40,80,1) 120%);
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+
+/*  ---------- LES PROPOSITIONS ---------- */
+
+.ligne1 {
+
+    flex-wrap: nowrap;
+    box-shadow: none;
+    
+}
+
+.ligne1:hover {
+
+    transform: scale(1.05);
+    transition: 1s;
+    
+    
+}
+
+.infos-trajet {
+
+    
+    margin-left: 10px;
+    box-shadow: -1px 1px 2px 1px #0c7b93;
+    width: 400px;
+}
+
+
+.tarif {
+
+    width: 200px;
+    margin: 0px 10px 0px 0px;
+
+}
+
+}
+
+@media (min-width:990px) {
+
+
+
+    .img-incon {
+
+        overflow: hidden;
+    
+    }
+    
+    .img-incon img {
+    
+        transition: 2s;
+    
+    }
+    
+    
+    .img-incon img:hover{
+    
+        transform: scale(1.2);
+        
+    
+    }
+
+    .incon .content {
+
+        position:absolute;
+        top: 15px;
+        left: 20px;
+        bottom:70px;
+        right: 20px;
+        background: rgba(0,0,0,0.8);
+        transform: scaleY(0);
+        transition: transform 1s;
+        margin: 30px 0px;
+    }
+
+    .incon:hover .content {
+
+        transform: scaleY(1);
+
+    }
+
+    .incon .content p {
+
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #fff;
+        
+
+    }
+
+}
+
+
+@media (min-width:1000px) {
+
+
+    .infos-trajet {
+
+    
+        
+        width: 800px;
+    }
+
+
+}
